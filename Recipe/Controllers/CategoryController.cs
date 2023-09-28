@@ -48,9 +48,9 @@ namespace Recipe.Controllers
         }
 
 
-        [Route("uploadImage")]
+        [Route("Image")]
         [HttpPost]
-        public RecipeCategory UploadImage()
+        public RecipeCategory Image()
         {
             var file = Request.Form.Files[0];
             var fileName = Guid.NewGuid().ToString() + "_" + file.FileName;
