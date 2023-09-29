@@ -1,4 +1,3 @@
-using Charity.Infra.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Recipe.Core.Common;
